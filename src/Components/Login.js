@@ -2,6 +2,8 @@
 import React, { useState } from "react"; // Ensure React is imported
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../Firebase/Firebase";
+import './Auth.css';
+
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -19,7 +21,8 @@ function Login() {
   };
 
   return (
-    <div>
+    <div class = "auth-box">
+      
       <input
         type="email"
         placeholder="Email"

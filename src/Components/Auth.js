@@ -1,6 +1,8 @@
 import React, { useState } from 'react'; // Import React and useState
 import SignIn from '../Components/Login'; // Adjust the path to your SignIn component
 import SignUp from '../Components/Signup'; // Adjust the path to your SignUp component
+import './Auth.css';
+
 
 const Auth = () => {
     const [index, setIndex] = useState(false); // Use state to toggle between SignIn and SignUp

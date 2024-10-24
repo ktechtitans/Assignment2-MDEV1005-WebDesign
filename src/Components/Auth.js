@@ -5,23 +5,23 @@ import './Auth.css';
 
 
 const Auth = () => {
-    const [index, setIndex] = useState(false); // Use state to toggle between SignIn and SignUp
-  
-    const toggleIndex = () => {
+  const [index, setIndex] = useState(false); // Use state to toggle between SignIn and SignUp
+
+  const toggleIndex = () => {
       setIndex((prevState) => !prevState);
-    };
-  
-    return (
+  };
+
+  return (
       <div className="container">
-        {/* Conditional Rendering of SignIn or SignUp Components */}
-        {!index ? <SignIn /> : <SignUp />}
-        
-        {/* Toggle Link to Switch Between Sign In and Sign Up */}
-        <p onClick={toggleIndex}>
-          {index ? "Click here to Sign In" : "Click here to Sign Up"}
-        </p>
+          {/* Conditional Rendering of SignIn or SignUp Components */}
+          {!index ? <SignIn /> : <SignUp />}
+
+          {/* Toggle Link to Switch Between Sign In and Sign Up */}
+          <div className="toggle-box" onClick={toggleIndex}>
+              {index ? "Click here to Sign In" : "Click here to Sign Up"}
+          </div>
       </div>
-    );
+  );
 };
-  
+
 export default Auth;

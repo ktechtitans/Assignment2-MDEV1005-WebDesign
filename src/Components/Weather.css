@@ -1,0 +1,27 @@
+/* WeatherWidget.css */
+.weather-widget {
+    background-color: #ffffff; /* White background for the widget */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    text-align: center; /* Center text alignment */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  .weather-widget h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.5em; /* Font size for the city name */
+    color: #333; /* Dark gray color */
+  }
+  
+  .weather-widget p {
+    margin: 10px 0; /* Vertical spacing for paragraphs */
+    color: #555; /* Medium gray color for text */
+    font-size: 1em; /* Base font size */
+  }
+  
+  .weather-widget .loading {
+    font-style: italic; /* Italics for loading text */
+    color: #999; /* Lighter gray for loading text */
+  }
+  

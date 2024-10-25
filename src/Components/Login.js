@@ -35,8 +35,10 @@ function Login() {
         placeholder="Password"
         onChange={(e) => setPassword(e.target.value)} // Update password state on change
       />
-      {/* Login button */}
-      <button onClick={handleLogin}>Login</button>
+       <form>
+            {/* Other form fields for Login */}
+            <button type="submit" className="auth-button">Login</button>
+        </form>
       {/* Display error message if any */}
       {error && <p>{error}</p>}
     </div>

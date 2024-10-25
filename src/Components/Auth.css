@@ -54,7 +54,7 @@ button.auth-button {
 
 /* Toggle Box Hover Effect */
 .toggle-box:hover {
-    background-color: #ffffff; /* Change background color on hover */
-    color: #000000; /* Change text color on hover */
-    border: 1px solid #ffffff; /* Add border on hover */
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 1px solid #ffffff;
 }

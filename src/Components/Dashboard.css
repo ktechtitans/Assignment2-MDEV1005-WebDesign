@@ -26,7 +26,7 @@
     .dashboard {
         flex-direction: column; /* Stack on mobile */
         padding: 15px;
-        max-width: 90%; /* Allow more space on mobile */
+        max-width: 90%; 
     }
     .user-profile, .weather-widget {
         width: 100%; /* Full width on mobile */

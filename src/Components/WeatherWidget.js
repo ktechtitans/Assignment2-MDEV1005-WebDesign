@@ -16,11 +16,11 @@ function WeatherWidget() {
       try {
         const { data } = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=65aa8609c19637a62446f19bbbabf147&units=metric`
-        );
+        ); //API
         setWeather(data);
       } catch (err) {
         setError("Failed to fetch weather data.");
-        console.error(err);
+        console.error(err); //Errors
       }
     };
 
@@ -37,7 +37,7 @@ function WeatherWidget() {
           <p>Temperature: {weather.main.temp}°C</p>
         </>
       ) : (
-        <p className="loading">Loading weather...</p>
+        <p className="loading">Loading weather...</p> 
       )}
     </div>
   );

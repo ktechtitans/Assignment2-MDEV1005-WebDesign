@@ -11,10 +11,10 @@
 /* Auth Box Styles */
 .auth-box {
     background-color: #ffffff; /* White background */
-    border: 1px solid #ccc; /* Light grey border */
+    border: 1px solid #ffffff; /* Light grey border */
     padding: 30px; /* Increase padding for a balanced look */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2); /* Slight shadow for depth */
     width: 350px; /* Set a fixed width */
     text-align: center; /* Center the text */
     position: relative; /* Relative positioning for inner centering */
